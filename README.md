@@ -12,5 +12,5 @@ I’m open to collaboration, feedback, and learning opportunities:
 
 - 💼 LinkedIn: https://www.linkedin.com/in/sumitraj-saroj  
 - 🐦 X (Twitter): https://x.com/@sumitsaroj01 
-- 💬 Discord: [Discord](https://discord.com/users/791273668259872768)
+- 💬 Discord: [Sumitaj Saroj](https://discord.com/users/791273668259872768)
 - 📧 Email: **sumitsaroj.dev@gmail.com**
