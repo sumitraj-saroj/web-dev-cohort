@@ -5,3 +5,12 @@
 ## 📚 About This Repository
 
 This repository serves as my learning journal and portfolio for the ChaiCode Web Development Cohort. It contains structured notes, code examples, practice exercises, and projects that demonstrate my progress from frontend fundamentals to full-stack development.
+
+## 🤝 Let’s Connect
+
+I’m open to collaboration, feedback, and learning opportunities:
+
+- 💼 LinkedIn: https://www.linkedin.com/in/sumitraj-saroj  
+- 🐦 X (Twitter): https://x.com/@sumitsaroj01 
+- 💬 Discord: [Discord](https://discord.com/users/791273668259872768)
+- 📧 Email: **sumitsaroj.dev@gmail.com**
