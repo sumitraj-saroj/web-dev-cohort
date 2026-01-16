@@ -1,142 +1,194 @@
 # YAML Notes
 
-## Original YAML File
+## What is YAML?
+
+**YAML** stands for **YAML Ain't Markup Language**.  
+It is a **human-readable data serialization format** commonly used for configuration files and data exchange.
+
+---
+
+## Why YAML?
+
+- Easy to read and write
+- Cleaner than JSON or XML
+- Widely used in **DevOps**, **CI/CD**, **Cloud**, and **Backend** systems
+
+---
+
+## Basic Syntax Rules
+
+- Uses **indentation** (spaces) to define structure
+- **Tabs are not allowed**
+- Indentation must be consistent
+- Key-value pairs are written as:
+  ```yaml
+  key: value
+  ```
+
+---
+
+## Scalars (Basic Data Types)
+
+### Strings
 
 ```yaml
-chai_type: masala_chai
-temperature: hot
-serving: 2
-brewing_time: 5
+name: Sumit
+city: 'New Delhi'
+description: |
+  This is a
+  multiline string
+```
 
-#Inline comments
+### Numbers
 
-chai_recipe:
-  base: black_tea
-  milk: whole_milk
+```yaml
+age: 22
+price: 99.99
+```
 
-chai_recipe_two:
-  base: black_tea
-  milk: whole_milk
+### Booleans
 
-#Strings
+```yaml
+isStudent: true
+isWorking: false
+```
 
-chai_name: Masala  Chai
-description: 'Chai with cardamon ginger'
-tagline: 'The best chai in town'
+### Null
 
-brewing_instructions: |
-  boil water
-  add tea leaves
-  add milk
-
-brewing_instructions_two: >
-  boil water
-  add tea leaves
-  add milk
-
-#numbers
-
-cups_per_days: 3
-cups_per_dayss: 3.5+e+2
-
-#boolen
-is_hot: true
-add_sugar: yes
-add_salt: no
-instant: no
-
-# null == ~
-sweetner: null
-alternate_milk: ~
-morning_brew: 2026-01-16 08:03:33
-
-#Collections
-
-#standard
-spices:
-  - ginger
-  - clovers
-  - black_pepper
-  - true
-  - 200
-
-# not used now
-spicess: [cardamon, ginger, clover]
-
-chai_categories:
-  - name: Traditional
-    varities:
-      - masala_chai
-      - ginger_chai
-      - cardamon_chai
-  - name: Modern
-    varities:
-      - lemon_chai
-      - Chocolate_chai
-
-masala_chai_new:
-  ingredients:
-    tea: black_tea
-    liquid:
-      water: 200ml
-      milk: 100ml
-    spices:
-      ginger: 1_inch
-      cinnamon: 1_stick
-  preparation:
-    method: simmer
-    duration: 5_minutes
-
-chai_menu:
-  - name: masala_chai
-    price: 30
-    size: regular
-  - name: Ginger Chai
-    price: 40
-    size: medium
-
-default_chai_base: &default_base
-  tea: black_tea
-  water: 200ml
-  brewing_time: 5
-
-morning_brew_two:
-  <<: *default_base
-
-evening_chai:
-  <<: *default_base
-
-#force
-zin_code: !!str 123456
-count: !!int '123'
-
-#set
-unique_spices: !!set
-  ? cardamon
-  ? ginger
+```yaml
+middleName: null
+emptyValue: ~
 ```
 
 ---
 
-## Key Learnings from This YAML
+## Lists (Sequences)
 
-- YAML is **human-readable** and commonly used for configuration.
-- It uses **indentation** instead of brackets to define structure.
-- Key-value pairs are written as `key: value`.
-- Lists are represented using `-`.
-- YAML is widely used in:
-  - DevOps tools (Docker, Kubernetes, GitHub Actions)
-  - Configuration files
-  - CI/CD pipelines
+```yaml
+skills:
+  - HTML
+  - CSS
+  - JavaScript
+```
 
----
+Inline list:
 
-## Best Practices
-
-- Use consistent spaces for indentation (usually 2 spaces).
-- Avoid tabs.
-- Keep keys meaningful and readable.
-- Validate YAML files using linters or online validators.
+```yaml
+languages: [JavaScript, Go, Python]
+```
 
 ---
 
+## Maps (Dictionaries)
+
+```yaml
+user:
+  name: Sumit
+  age: 22
+  role: Developer
+```
+
+Inline map:
+
+```yaml
+user: { name: Sumit, age: 22 }
+```
+
+---
+
+## Nested Structures
+
+```yaml
+server:
+  host: localhost
+  ports:
+    - 3000
+    - 5000
+```
+
+---
+
+## Comments
+
+```yaml
+# This is a comment
+name: Sumit # Inline comment
+```
+
+---
+
+## Anchors and Aliases (Reusability)
+
+```yaml
+defaults: &defaults
+  timeout: 30
+  retries: 3
+
+service1:
+  <<: *defaults
+  name: auth
+
+service2:
+  <<: *defaults
+  name: payment
+```
+
+---
+
+## Environment Variables (Common Use)
+
+```yaml
+database:
+  url: ${DB_URL}
+```
+
+---
+
+## Multi-Document YAML
+
+```yaml
+---
+name: Document1
+---
+name: Document2
+```
+
+---
+
+## YAML vs JSON
+
+| YAML              | JSON             |
+| ----------------- | ---------------- |
+| Human-friendly    | Machine-friendly |
+| Supports comments | No comments      |
+| Indentation-based | Brackets-based   |
+
+---
+
+## Common Use Cases
+
+- Docker Compose
+- Kubernetes manifests
+- GitHub Actions
+- Ansible playbooks
+- Application configuration
+
+---
+
+## Common Mistakes
+
+- Using tabs instead of spaces
+- Wrong indentation
+- Forgetting `:` after keys
+- Mixing data types incorrectly
+
+---
+
+## YAML BEST PRACTICES
+
+- Use 2 spaces for indentation
+- Keep keys lowercase and meaningful
+- Use comments to explain configs
+- Validate YAML before use
+
+---
