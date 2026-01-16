@@ -1,4 +1,4 @@
-# ChaiCode Web Development Cohort 2026
+# [ChaiCode Web Development Cohort 2026](https://chaicode.com/cohorts/web-dev)
 
 > A comprehensive repository documenting my journey through the ChaiCode Web Development Cohort, featuring hands-on projects, detailed notes, and practical implementations.
 
