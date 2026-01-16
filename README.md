@@ -1,13 +1,7 @@
 # [ChaiCode Web Development Cohort 2026](https://chaicode.com/cohorts/web-dev)
 
-<p align="center">
-  <img 
-    src="https://chaicode.com/assets/webdev-2026-zjGULHtr.webp" 
-    alt="ChaiCode Logo" 
-    width="500" 
-    height="330" 
-  />
-</p>
+![Light](./images/light.png#gh-light-mode-only)
+![Dark](./images/dark.png#gh-dark-mode-only)
 
 > A comprehensive repository documenting my journey through the ChaiCode Web Development Cohort, featuring hands-on projects, detailed notes, and practical implementations.
 
