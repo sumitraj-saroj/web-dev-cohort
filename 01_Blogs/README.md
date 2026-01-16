@@ -10,7 +10,7 @@ A collection of technical blogs written by me on software development, engineeri
 |---|------|-------|------|------|
 | 1 | Git for Beginners | Git | 8 Jan 2026 | [Read](https://sumitsaroj.hashnode.dev/git-for-beginners-a-simple-guide-to-git-basics-and-essential-commands) |
 | 2 | Why Version Control Exists | Git | 13 Jan 2025 | [Read](https://sumitsaroj.hashnode.dev/why-version-control-exists-the-pendrive-problem) |
-| 3 | Inside Git: How the `.git` Folder Works   | 14 Git | Jan 2025 | [Read](https://sumitsaroj.hashnode.dev/inside-git-how-the-git-folder-works) |
+| 3 | Inside Git: How the `.git` Folder Works   |  Git | 14 Jan 2025 | [Read](https://sumitsaroj.hashnode.dev/inside-git-how-the-git-folder-works) |
 
 ---
 
