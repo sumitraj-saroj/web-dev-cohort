@@ -6,6 +6,7 @@
 > A comprehensive repository documenting my journey through the ChaiCode Web Development Cohort, featuring hands-on projects, detailed notes, and practical implementations.
 
 This repo is both:
+
 - 📘 **My personal knowledge base**
 - 🧠 **A public learning log**
 
@@ -48,16 +49,16 @@ web-dev-cohort/
 ## 📚 Notes Section
 
 ### 📌 Cohort Notes
+
 - Structured notes based on **Chaicode lectures**
 - Key explanations, commands, diagrams, and examples
 - Cleaned and rewritten for better understanding
 
 ### 🧠 Personal Notes
+
 - My own explanations in **simple language**
 - Mistakes I made & how I fixed them
 - Mental models & analogies that helped me learn faster
-
-
 
 ---
 
@@ -67,11 +68,10 @@ web-dev-cohort/
 
 ---
 
-
-
 ## ✍️ Blogs & Articles
 
 I also write **technical blogs** to strengthen my understanding:
+
 - Git internals
 - Version control concepts
 - Developer fundamentals
@@ -80,20 +80,14 @@ These are stored in the `blogs/` folder.
 
 ---
 
-
-
-
 ## 🧑‍💻 About Me
 
-- 👋 Name: **Sumit Saroj**
+- 👋 Name: **Sumitraj Saroj**
 - 🌱 Currently learning full-stack web development
 - 💡 Interested in backend, system design & design
 - 📬 Open to feedback and collaboration
 
 ---
-
-
-
 
 ## 🤝 Let’s Connect
 
@@ -105,4 +99,3 @@ I’m open to collaboration, feedback, and learning opportunities:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sumitsaroj.dev@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumitraj-saroj)
 [![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@sumitsaroj)
-
