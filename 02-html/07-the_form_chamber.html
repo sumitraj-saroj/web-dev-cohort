@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ChaiCode Registration</title>
+  </head>
+  <body>
+    <h1>ChaiCode Course Registration</h1>
+    <!-- Create a comprehensive registration form -->
+    <form action="#" method="post">
+      <fieldset>
+        <label for="text"> Name: </label> <br />
+        <input
+          type="text"
+          name="text"
+          placeholder="Enter your name"
+          required
+          maxlength="18"
+          min="6"
+        />
+        <br />
+        <label for="email"> Email: </label> <br />
+        <input type="email" name="email" placeholder="emal" required /> <br />
+        <label for="number"> Number:</label> <br />
+        <input
+          type="number"
+          name="number"
+          placeholder="enter a number"
+          required
+          min="5"
+          max="19"
+        />
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="radio">Are you Student: </label> <br />
+        <input name="radio" type="radio" />
+        <label for="radio"> Yes </label> <br />
+        <input name="radio" type="radio" required />
+        <label for="radio"> No </label>
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <label for="checkbox"> Select the course</label> <br />
+        <input type="checkbox" name="checkbox" required />
+        <label for="checkbox"> Web dev </label> <br />
+        <input type="checkbox" name="checkbox" required />
+        <label for="checkbox"> System Design</label> <br />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="file"> <strong> you resume </strong> </label> <br />
+        <input type="file" name="file" />
+        <input type="submit" value="Upload Image" name="submit" /> <br />
+        <br />
+      </fieldset>
+      <br /><br />
+      <label for="State">Select the State</label>
+      <br />
+      <br />
+      <select id="State" name="State">
+        <option>Maharashtra</option>
+        <option>Uttar Pradesh</option>
+        <option>Odisha</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <input list="courses" placeholder="Search course" />
+        <datalist id="courses">
+          <option value="HTML"></option>
+          <option value="CSS"></option>
+          <option value="JavaScript"></option>
+          <option value="System Design"></option>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="13" cols="25"></textarea>
+      </fieldset>
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
