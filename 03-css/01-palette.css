@@ -1,0 +1,5 @@
+/* Create .card class with hex colors */
+.card{
+  background-color: #ecf0f1;
+  color: #34495e;
+}
