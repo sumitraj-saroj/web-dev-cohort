@@ -22,11 +22,11 @@ All blogs are published on my Hashnode blog:
 
 - **CSS Selectors Made Simple: Your First Steps in Styling**  
   A clear introduction to CSS selectors with simple examples.  
-  📅 30 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/css-selectors-made-simple
+  📅 30 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/css-selectors-made-simple-your-first-steps-in-styling-web-pages
 
 - **How Browsers Work: A Beginner’s Guide**  
   An overview of what happens behind the scenes when a browser loads a website.  
-  📅 29 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/how-browsers-work
+  📅 29 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/how-browsers-work-a-beginners-guide
 
 ---
 
@@ -46,11 +46,11 @@ All blogs are published on my Hashnode blog:
 
 - **Network Devices Explained: A Beginner’s Guide**  
   Understand routers, switches, hubs, and how data flows between them.  
-  📅 27 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/network-devices-explained
+  📅 27 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/network-devices-explained-a-beginners-guide-to-how-the-internet-actually-works
 
 - **TCP vs UDP: When to Use What, and How TCP Relates to HTTP**  
   Compare TCP and UDP with real-world examples and protocol-level context.  
-  📅 21 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/tcp-vs-udp-when-to-use-what
+  📅 21 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/tcp-vs-udp-when-to-use-what-and-how-tcp-relates-to-http
 
 ---
 
@@ -58,7 +58,7 @@ All blogs are published on my Hashnode blog:
 
 - **Git for Beginners: A Simple Guide to Git Basics**  
   A beginner-friendly introduction to Git and version control concepts.  
-  📅 8 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/git-for-beginners-a-simple-guide
+  📅 8 Jan 2026 · 👉 https://sumitsaroj.hashnode.dev/git-for-beginners-a-simple-guide-to-git-basics-and-essential-commands
 
 - **Why Version Control Exists: The Pendrive Problem**  
   Understand why version control systems were created using real-world scenarios.  
