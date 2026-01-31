@@ -65,6 +65,7 @@ web-dev-cohort/
 ## 🧩 Topics Covered (and Updating)
 
 - ✅ Git & GitHub (internals, workflows)
+- ✅ Computer Networks
 
 ---
 
@@ -72,9 +73,7 @@ web-dev-cohort/
 
 I also write **technical blogs** to strengthen my understanding:
 
-- Git internals
-- Version control concepts
-- Developer fundamentals
+#### [Link To All Blogs](https://github.com/sumitraj-saroj/web-dev-cohort/tree/main/01-blogs)
 
 These are stored in the `blogs/` folder.
 
